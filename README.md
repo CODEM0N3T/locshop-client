@@ -1,1 +1,1 @@
-# locshop-client
+# locshop-client (React + Vite)
