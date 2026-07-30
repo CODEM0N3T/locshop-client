@@ -8,6 +8,9 @@ function Header({}) {
       <Link to="/">
         <img className="header__logo" src={logo} alt="LocShop logo" />
       </Link>
+      <div className="header_nav">
+        <button>onClick = {handleAddClick}</button>
+      </div>
     </header>
   );
 }
