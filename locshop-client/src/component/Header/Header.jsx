@@ -1,12 +1,12 @@
 import React from "react";
 import "./Header.css";
-import logo from "../src/assets/logo";
+//import logo from "../src/assets/logo";
 
 function Header({ nav, logo }) {
   return (
     <header className="header">
       {/* Makes the logo a clickable link */}
-      <Link to="/">
+      <Link to="/home">
         <img className="header__logo" src={logo} alt="LocShop logo" />
       </Link>
       <nav className="header_nav">
